@@ -1,0 +1,111 @@
+
+	body {
+	/* 加载背景图 */
+	background-image: url('图片/tupian.jpg');
+	/* 背景图垂直、水平均居中 */
+	background-position: center center;
+	/* 背景图不平铺 */
+	background-repeat: no-repeat;
+	/* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+	background-attachment: fixed;
+	/* 让背景图基于容器大小伸缩 */
+	background-size: cover;
+	/* 设置背景颜色，背景图加载过程中会显示背景色 */
+	background-color: #464646;
+	
+	
+	}
+	a{
+		
+		border-top: 1px; border-left: 1px; border-bottom: 1px; border-right: 1px;
+		text-decoration: none;
+	}
+	div>a{
+		color: black;
+	}
+	.v{
+		color: grey;
+		font-size:0.6em;
+		opacity: 0.7;
+	}
+	.positions
+	{
+		
+		height: 25px;
+		line-height: 25px;
+		padding-left: 90px;
+		
+		background:url(图片/tupian2.jpg) 3px center no-repeat ;
+		
+		
+		background-size: contain
+	}
+	.w
+	{
+		color: black;
+		line-height: 1cm;
+	}
+	.s{
+		height: 15px;
+		line-height: 25px;
+		padding-left: 30px;
+		background:url(图片/wantuju.jpg)1px center no-repeat ;
+		background-size: contain
+	}
+	div>p{
+		font-family: Arial;margin: 3px;
+		color: black;
+		line-height: 0.7cm;
+	}
+	.w:link, a:visited
+	{
+		padding: 0.7px 8px 0.7px 8px;
+		text-decoration: none;
+		border: 1px solid black;
+	}
+	.a{
+		height: 300px;
+	}
+	.conter{
+		
+	}
+	.footer{
+		height: 100px;
+	      font-family: 'Times New Roman', Times, serif;
+	}
+	ul
+	{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		color: blue;
+	}
+	li
+	{
+	display:inline;
+	}
+	table{
+		width: 200px;
+		height: 50px;
+	}
+	caption{
+		font-size: 2cm;
+	}
+	
+	td {
+	            border-right: 1px solid #ccc;
+	            border-bottom: 1px solid #ccc;
+				line-height: 1.5cm;
+	    }
+	td:last-child {
+	            border-right: 0;
+	    }
+.yy{
+	color: black;
+	size: 0.6cm;
+	line-height: 2cm;
+}
+.ry{
+	width: 700px;
+	
+}

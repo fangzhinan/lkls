@@ -1,0 +1,19 @@
+body{
+	background-color: gray;
+}
+table{
+	width: 800px;
+	height: 700px;
+}
+caption{
+	font-size: 2cm;
+}
+
+td {
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+			line-height: 1.5cm;
+    }
+td:last-child {
+            border-right: 0;
+    }

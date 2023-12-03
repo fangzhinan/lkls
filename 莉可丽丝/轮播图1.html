@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title name="tuji">Document</title>
+</head>
+<style>
+    .banner-container{
+    width:400px;
+    height:200px;
+    margin:0px auto;
+    position:relative;
+    overflow: hidden;/*用于隐藏超出展示容器的内容部分*/
+}
+.banner-image-container{
+    width:400px;
+    height:200px;
+    margin:0px auto;
+    animation:text 15s infinite  linear;
+    font-size:0px;/*消除图片间隔*/
+    
+}
+.banner-image-container img{
+    width:500px;
+    height:200px;
+    float:left;
+}
+
+/* 轮播图关键帧 */
+@keyframes text {          /*0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+    0%,50%{
+        /* margin-left:0px; */
+        transform: translateX(0px);
+    }
+    0%,50%{
+        /* margin-left:-1200px; */
+        transform: translateX(-700px);
+    }
+    
+}
+</style>
+<body>
+    <div class="banner-container clearfix">
+			    <!-- 创建图片存储容器 -->
+			    <div class="banner-image-container">
+			        <!-- 引入轮播图图片 -->
+			        <img src="图片/1.jpg" alt="椰牌"/>
+			        <img src="图片/2.jpg" alt="zz"/>
+			    </div>
+	</div>
+</body>
+<script>
+    
+</script>
+</html>
